@@ -1,0 +1,34 @@
+{
+  "name": "massiv-mysql",
+  "version": "0.0.1",
+  "description": "a db wrapper for mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit ./specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarvispact/massiv-mysql.git"
+  },
+  "keywords": [
+    "massiv",
+    "mysql",
+    "db"
+  ],
+  "author": "jarvispact <jarvispact@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarvispact/massiv-mysql/issues"
+  },
+  "homepage": "https://github.com/jarvispact/massiv-mysql#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "rules": {
+      "indent": ["error", 4],
+      "max-len": ["error", 150],
+      "arrow-body-style": ["error", "as-needed"],
+      "arrow-parens": "off",
+      "object-curly-newline": "off",
+      "newline-per-chained-call": "off",
+      "consistent-return": "off",
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.specs.js", "./spec-helper/*.js"]}]
+    }
+}
