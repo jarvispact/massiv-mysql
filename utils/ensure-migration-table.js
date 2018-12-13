@@ -1,4 +1,4 @@
-module.exports = async (db) => {
+module.exports = async (table, db) => {
     const sql = 'CREATE TABLE IF NOT EXISTS :table (name VARCHAR(255) NOT NULL)';
-    await db.query({ sql, values: { ids: { table: 'migration' } } });
+    await db.query({ sql, values: { ids: { table } } });
 };
