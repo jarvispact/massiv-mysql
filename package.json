@@ -1,6 +1,6 @@
 {
   "name": "massiv-mysql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a db wrapper for mysql",
   "main": "index.js",
   "scripts": {
